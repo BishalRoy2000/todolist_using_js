@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#show {
+  background-color: #e3f2fd;
+  color: black;
+  height: 300px;
+  width: 800px;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 7px 10px;
+  overflow: auto;
+}
+
+.h {
+  background-color: lightpink;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
